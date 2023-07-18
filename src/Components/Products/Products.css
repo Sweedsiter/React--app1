@@ -1,0 +1,31 @@
+.Products-box-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Products-box{
+    width: 250px;    
+    box-shadow: 8px 8px 10px rgb(148, 148, 148);
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Products-box img {
+    width: 200px;
+    border-bottom: 2px solid gray;
+}
+
+.Products-box .context{    
+    display: inline-block;
+}
+.Products-box .context h2 {
+    margin: 0rem;
+}
+.Products-box .context h4{
+    display: inline-block;
+    margin: 4px;
+}
